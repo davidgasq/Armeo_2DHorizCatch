@@ -34,19 +34,19 @@
 %   calculation of kinematic parameters
 %   - Save plots of these 2D trajectories (in the 'export' folder)
 %
-%   This script has been developed within the framework of the publication 
-%   of the article: N. Brihmat, I. Loubinoux, E. Castel-Lacanal, P. Marque,
-%   D. Gasq. Kinematic parameters obtained with the ArmeoSpring for 
-%   upper-limb assessment after stroke: A reliability and learning effect 
-%   study guiding the parameters' use. J. NeuroEng Rehab. 2020
+% This script has been developed within the framework of the publication: 
+% Brihmat N, Loubinoux I, Castel-Lacanal E, Marque P, Gasq D (2020). Kinematic
+% parameters obtained with the ArmeoSpring for upper-limb assessment after stroke:
+% A reliability and learning effect study guiding the parameters' use. 
+% Journal of NeuroEngineering and Rehabilitation. DOI: 10.1186/s12984-020-00759-2    
 %
-%   The objective is to facilitate the use and analysis of raw ArmeoSpring 
-%   data in clinical practice as proposed in the paper.
+% The objective is to facilitate the use and analysis of raw ArmeoSpring 
+% data in clinical practice as proposed in the paper.
 %
 % Authors: David Gasq[1,2], MD, PhD & Nabila Brihmat[1], PhD - May 2020
-% [1] ToNIC, Toulouse NeuroImaging Center, Université de Toulouse, Inserm, UPS, France
-% [2] University Hospital of Toulouse, Hôpital de Rangueil, Toulouse, France
-% email contact: gasq.d@chu-toulouse.fr
+% [1] ToNIC, Toulouse NeuroImaging Center, UniversitÃ© de Toulouse, Inserm, UPS, France
+% [2] University Hospital of Toulouse, HÃ´pital de Rangueil, Toulouse, France
+% Email contact: gasq.d@chu-toulouse.fr
 % 
 % Copyright (C) 2020  David Gasq
 % This program is free software: you can redistribute it and/or modify
@@ -108,8 +108,8 @@ function [Armeo_Kin] = Armeo_kinematics(settings)
 %   on the trials of their choice.
 %
 %   Author: David Gasq, MD, PhD
-%   ToNIC, Toulouse NeuroImaging Center, Université de Toulouse, Inserm, UPS, France
-%   University Hospital of Toulouse, Hôpital de Rangueil, Toulouse, France
+%   ToNIC, Toulouse NeuroImaging Center, UniversitÃ© de Toulouse, Inserm, UPS, France
+%   University Hospital of Toulouse, HÃ´pital de Rangueil, Toulouse, France
 %   email address: gasq.d@chu-toulouse.fr
 %   October 2018; Last revision: May 2020
 
@@ -281,8 +281,8 @@ function D = armeo2D_process(filename)
 %           computed only when the preceding object was successful caught
 %
 %   Author: David Gasq, MD, PhD
-%   ToNIC, Toulouse NeuroImaging Center, Université de Toulouse, Inserm, UPS, France
-%   University Hospital of Toulouse, Hôpital de Rangueil, Toulouse, France
+%   ToNIC, Toulouse NeuroImaging Center, UniversitÃ© de Toulouse, Inserm, UPS, France
+%   University Hospital of Toulouse, HÃ´pital de Rangueil, Toulouse, France
 %   email address: gasq.d@chu-toulouse.fr
 %   October 2018; Last revision: May 2020
 
@@ -434,8 +434,8 @@ function T = readArmeo2Ddata(filename)
 %   T = readArmeo2Ddata('path.../AE1_Hor_20180525132838_Data.csv');
 % 
 %   Author: David Gasq, MD, PhD
-%   ToNIC, Toulouse NeuroImaging Center, Université de Toulouse, Inserm, UPS, France
-%   University Hospital of Toulouse, Hôpital de Rangueil, Toulouse, France
+%   ToNIC, Toulouse NeuroImaging Center, UniversitÃ© de Toulouse, Inserm, UPS, France
+%   University Hospital of Toulouse, HÃ´pital de Rangueil, Toulouse, France
 %   email address: gasq.d@chu-toulouse.fr
 %   May 2019; Last revision: June 2020
 
@@ -480,8 +480,8 @@ function P = hand2D(vXZ,fs,failSucc_n)
 %   - P.data: matrix of computed kinematic parameters
 %
 %   Author: David Gasq, MD, PhD
-%   ToNIC, Toulouse NeuroImaging Center, Université de Toulouse, Inserm, UPS, France
-%   University Hospital of Toulouse, Hôpital de Rangueil, Toulouse, France
+%   ToNIC, Toulouse NeuroImaging Center, UniversitÃ© de Toulouse, Inserm, UPS, France
+%   University Hospital of Toulouse, HÃ´pital de Rangueil, Toulouse, France
 %   email address: gasq.d@chu-toulouse.fr
 %   May 2019; Last revision: May 2020
 
@@ -554,8 +554,8 @@ function [nPPks,PPksVal,maxPPksVal] = findPpeaks(V)
 %   - maxPPksVal: maximal positive peak's value
 %
 %   Author: David Gasq, MD, PhD
-%   ToNIC, Toulouse NeuroImaging Center, Université de Toulouse, Inserm, UPS, France
-%   University Hospital of Toulouse, Hôpital de Rangueil, Toulouse, France
+%   ToNIC, Toulouse NeuroImaging Center, UniversitÃ© de Toulouse, Inserm, UPS, France
+%   University Hospital of Toulouse, HÃ´pital de Rangueil, Toulouse, France
 %   email address: gasq.d@chu-toulouse.fr
 %   July 2013; Last revision: May 2020
 
