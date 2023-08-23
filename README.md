@@ -20,7 +20,7 @@ During the script process, you will be asked to whether you want to:
 - Save plots of these 2D trajectories (in the 'export' folder)
 
 This script has been developed within the framework of the publication of the article: 
-N. Brihmat, I. Loubinoux, E. Castel-Lacanal, P. Marque, D. Gasq. Kinematic parameters obtained with the ArmeoSpring for upper-limb assessment after stroke: A reliability and learning effect study guiding the parameters' use. J. NeuroEng Rehab. 2020 (in revision).
+Brihmat N, Loubinoux I, Castel-Lacanal E, Marque P, Gasq D. Kinematic parameters obtained with the ArmeoSpring for upper-limb assessment after stroke: a reliability and learning effect study for guiding parameter use. J Neuroeng Rehabil. 2020 Sep 29;17(1):130. doi: 10.1186/s12984-020-00759-2.
 
 The objective is to facilitate the use and analysis of raw ArmeoSpring data in clinical practice as proposed in the paper.
 
